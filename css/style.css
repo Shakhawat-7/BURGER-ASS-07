@@ -1,0 +1,314 @@
+/*google fonts integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*global css here*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: 'Alfa Slab One', cursive;
+}
+p,span,{
+	font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6,input{
+	font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/****************************
+     header part css here
+******************************/
+
+header{
+	width: 100%;
+	background: url(../img/header.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+nav{
+	padding: 25px 0 !important;
+}
+.nav-item{
+	margin-left: 30px;
+}
+.nav-link{
+	color: black !important;
+	font-weight: 600;
+	font-family: 'Bebas Neue', cursive; 
+	transform: all 0.5s ease-in-out;
+	
+}
+/****************************
+     banner section css here
+******************************/
+.banner{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 60vh;
+
+}
+.banner .pre-title{
+	font-size: 18px;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 5px;
+
+}
+.banner .title{
+	font-size: 87px;
+	color: #3d2514;
+	text-shadow: 3px 3px #fee8bb;
+}
+.banner .sub-title{
+	font-size: 43px;
+	color: #3d2514;
+	text-shadow: 2px 2px #fee8bb;
+}
+
+/****************************
+     burger blog css here
+******************************/
+.burger-blog{
+	width: 100%;
+	padding: 40px 0;
+}
+.blog-info{
+	position: relative;
+}
+.blog-title{
+	position: absolute;
+	top: 26px;
+	left: 32px;
+	color: white;
+	text-transform: uppercase;
+}
+.blog-title h3{
+	font-size: 40px;
+	line-height: 40px;
+	color: white;
+}
+.uper-post{
+	margin-bottom: 32px;
+}
+.blog-button{
+	text-align: center;
+	margin: 40px 0;
+	
+}
+button{
+	padding: 10px 30px !important;
+	color: #3d2514 !important;
+	font-family: 'Bebas Neue', cursive;
+}
+.btn-primary{
+	background: #ffc045 !important;
+	border: none;
+	border-radius: 0 !important;
+	border: 1px solid #ffc045 !important;
+}
+/****************************
+     order now blog css here
+******************************/
+.order-now{
+	width: 100%;
+	text-align: center;
+}
+.order-now h1, h3{
+	color: #3d2514;
+}
+.order-now p{
+	font-size: 14px;
+}
+.top{
+	margin-bottom: 40px;
+}
+.order-now button{
+	font-family: 'Alfa Slab One', cursive;
+	background: red;
+	border: 1px solid red;
+	color: white !important;
+
+}
+.bottom{
+	margin-bottom: 80px;
+}
+
+/****************************
+     events section css here
+******************************/
+.events{
+	width: 100%;
+	padding: 60px 0;	
+}
+.events-body{
+	transition: all 0.5s ease-in-out;
+}
+.events-body:hover{
+	box-shadow: 6px 5px 10px 0 rgba(0,0,0,0.7);
+	transition: all 0.5s ease-in-out;
+	padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.events h1, h3{
+	color: #3d2514;
+}
+.owl-theme .owl-nav{
+	display: none;
+}	
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background: #ffc045 !important;
+}
+/****************************
+ reservation section css here
+******************************/
+.reservation{
+	width: 100%;
+	background: url(../img/item02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.reserv-info{
+	text-align: center;
+	padding-top: 130px;
+}
+.reserv-form{
+	padding: 150px;
+}	
+.reserv-info h1, h3{
+	color: #3d2514;
+}
+.reservation-form{
+	color: black;
+}
+.name-input:focus{
+	outline-color: #ed6524;
+	border: none;
+}
+.name-input{
+	width: 380px;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+	border-radius: 8px;	
+	padding-left: 10px;
+}
+.submit-button{
+	width: 380px;
+    height: 50px;    
+	border-radius: 8px;
+	margin-bottom: 25px;
+    margin-right: 20px;
+	background: #bf2222;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 3px;
+	border: #bf2222;
+}
+/****************************
+ burger house section css here
+******************************/
+.burger-house{
+	width: 100%;
+	background: url(../img/item02.1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+}
+.img-info{
+    padding-top: 80px;
+}
+.img-info p{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 40vh;
+	color: white;
+	padding-right: 75px;
+}
+.copyright-info ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding-top: 60px;	
+}
+.copyright-info ul li a{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+.copyright-info ul li a:hover{
+	color: tomato;
+}
+.mailing-adds{
+	padding-top: 250px;
+	color: white;
+	padding-left: 150px;
+}
+.mailing-adds ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	margin-left: 10PX;
+	font-family: 'Bebas Neue', cursive;	
+}
+.mailing-adds ul li a{
+	padding-right: 20px;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 25px;	
+}
+.mailing-adds ul li a i{
+	color: white;	
+}
+.social-media{
+	width: 100;
+	text-align: right;
+}
+.social-media i{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	line-height: 25px;
+	text-align: center;	
+}
+.social-icon a{
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+
+}
+.social-icon ul li{
+	display: inline-block;	
+	text-align: right;
+	padding-top: 180px;
+	padding-right: 15px;
+}
+.social-media i:hover{
+	background-color: #ed6524;
+	color: white;	
+	transition: 0.75s;
+	transform: scale(1.25);
+/****************************
+      css code end here
+******************************/
